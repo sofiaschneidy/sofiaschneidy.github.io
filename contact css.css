@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:40; 
+	padding-left:40; 
+	box-sizing: border-box; 
+	font-size:18px; 
+	text-align:center
+}
+h1, h2, h3, h4 {
+color: #632814;
+font-family: 'Poetsen One', sans-serif;
+	align-content: center
+}
+p,li{
+color: #944529;
+font-family: 'Poetsen One', sans-serif;
+	align-content: center
+}
+body {
+	
+      background-image:url("Untitled-1.png")
+     }
+header, footer {
+               text-align: center;
+               }
+header {
+    font-size:50px;
+	font-family: 'poetsen one', sans-serif; 
+    color: #48463A; /* white */
+    text-transform: uppercase;
+	text-align:center
+   } 
+h2 {
+    font-size: 30px;
+	color: 
+#632814
+;
+    font-family: 'poetsen one', sans-serif; 
+    text-transform: uppercase;
+	text-align:center
+   }
+p,li {
+            padding-bottom: 1em; 
+           }.item {
+       background-color: #e1cdab;
+       padding:0%;
+       margin:0%; 
+	font-family: 'poetsen one', sans-serif; 
+       margin-bottom: 20px;
+       margin-top: 30px; 
+       border-radius:10px;
+	text-align: center
+				  
+}
+main {
+/* There's rarely any time you should set an explicit width. Always use max-width wherever possible. */
+     max-width: 1000px;
+/* Change the above to width: 1000px and see what happens with responsive */
+     margin-left: auto;
+     margin-right: auto; 
+      }
+.item li {
+          margin-left: 25px;
+}
+blockquote {
+text-transform: uppercase; 
+font-style: italic;
+}
+nav {
+text-align: center;
+}
+nav li {
+display: inline-block;
+}
+/* nav li a, or nav a ?? */ nav a {
+background:#e1cdab ; 
+color: #4f2010;
+padding: 5px; 
+text-decoration: none; 
+border-radius: 5px;
+}
+nav a:hover {
+background:#c28617;
+}
